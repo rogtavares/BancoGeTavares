@@ -12,9 +12,8 @@ Nome,sobrenome,idade, lista de enderenço 1  e  lista de endereco 2  e  saldo fi
 
 ///
 Através de um ArrayList criei um processo para fazer o cadastro de clientes com os seguintes campos:
-CLASSE :  CLIENTE, NOME, SOBRENOME, IDADE, LISTA DE ENDERE 1 ;LISTA DE ENDERE 2   e saldo 
+CLASSE :  NOME, SOBRENOME, IDADE, LISTA DE ENDERE 1 e saldo 
 
-Nome, sobrenome,idade, lista endereço  e Telefone 
 O sistema deverá pedir as informações através de um menu de opções:
 1 – Cadastrar Clientes (incluir) 
 Exemplo:
