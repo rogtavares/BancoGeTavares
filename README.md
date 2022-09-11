@@ -15,9 +15,12 @@ Através de um ArrayList criei um processo para fazer o cadastro de clientes com
 CLASSE :  NOME, SOBRENOME, IDADE, LISTA DE ENDERE 1 e saldo 
 
 O sistema deverá pedir as informações através de um menu de opções:
+
 1 – Cadastrar Clientes (incluir) 
+
 Exemplo:
 Entre com a lista
+
 
 ...
 
