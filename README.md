@@ -1,18 +1,13 @@
 # BancoZucoli
 
-Aplicação em Java para controle de LISTA CLIENTE  , conforme o que está sendo pedido abaixo:
-
-
-
 Visão Geral
-Aplicativo em Java para controle de correntistas do Banco Itaú
+Aplicativo em Java para controle de correntistas do Banco Zucoli 
 
 Objetivos
 Criar um processo para fazer o cadastro de clientes com os seguintes campos .
 
 Nome,sobrenome,idade, lista de enderenço 1  e  lista de endereco 2  e  saldo final
 .
-
 
 
 ///
