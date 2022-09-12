@@ -16,7 +16,7 @@ CLASSE :  NOME, SOBRENOME, IDADE, LISTA DE ENDEREÇO E SALDO  (DA CONTA)
 
 O sistema deverá pedir as informações através de um menu de opções:
 
-1 – Cadastrar Clientes (incluir) 
+1 – Cadastrar Clientes 
 
 Exemplo:
 Entre com a lista
