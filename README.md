@@ -8,7 +8,11 @@ Criar um processo para fazer o cadastro de clientes com os seguintes campos .
 
 Nome,sobrenome,idade, lista de enderenço 1  e  lista de endereco 2  e  saldo final
 .
+/**
+* É preciso cadastrar cliente com nome,sobrenome, idade, enderenço de
+*contato.  e colocar salto da conta .
 
+* @autor Rogerio Tavares 
 
 ///
 Através de um ArrayList criei um processo para fazer o cadastro de clientes com os seguintes campos:
