@@ -1,7 +1,7 @@
-# BancoZucoli
+# Banco GÉ  TAVARES
 
 Visão Geral
-Aplicativo em Java para controle de correntistas do Banco Zucoli 
+Aplicativo em Java para controle de correntistas do Banco  VIRTUAL  Gé Tavares 
 
 Objetivos
 Criar um processo para fazer o cadastro de clientes com os seguintes campos .
