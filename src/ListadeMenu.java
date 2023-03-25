@@ -18,7 +18,7 @@ public class ListadeMenu {
 		
 		boolean rodando = true;
 		while(rodando) {
-			System.out.println("[1] - Cadastrar de Cliente - Teste");
+			System.out.println("[1] - Cadastrar de Cliente");
 			System.out.println("[2] - Listar todos Cliente cadastrados");
 			System.out.println("[3] - Procurar usuario por Nome");
 			System.out.println("[4] - Alterar dados de um Cliente");
@@ -26,7 +26,7 @@ public class ListadeMenu {
 			System.out.println("[6] - Gravar em arquivo");
 			System.out.println("[7] - Consultar arquivo");
 			System.out.println("[8] - Sair");
-			System.out.println("Digite a opï¿½ao: *");
+			System.out.println("Digite a opçao: *");
 			String opcao = scanner.nextLine();
 			
 			switch(opcao) {
@@ -38,7 +38,7 @@ public class ListadeMenu {
 					String sobrenome = scanner.nextLine();
 					System.out.print("Digite o seu idade: ");
 					String idade = scanner.nextLine();
-					System.out.print("Digite lista de endereï¿½o: ");
+					System.out.print("Digite lista de endereço: ");
 					String endereco = scanner.nextLine();
 					System.out.print("Digite seu saldo: ");
 					Double saldo = scanner.nextDouble();
@@ -61,7 +61,7 @@ public class ListadeMenu {
 						System.out.println("\tNome: " + clientes.get(i).getNome());
 						System.out.println("\tSobrenome: " + clientes.get(i).getSobrenome());
 						System.out.println("\tIdade: " + clientes.get(i).getIdade());
-						System.out.println("\tEndereï¿½o: " + clientes.get(i).getEndereco());
+						System.out.println("\tEndereço: " + clientes.get(i).getEndereco());
 						System.out.println("\tSaldo: " + uTemp.getSaldo());
 					}
 					break;
@@ -80,7 +80,7 @@ public class ListadeMenu {
 							System.out.println("\tNome: " + clientes.get(i).getNome());
 							System.out.println("\tSobrenome: " + clientes.get(i).getSobrenome());
 							System.out.println("\tIdade: " + clientes.get(i).getIdade());
-							System.out.println("\tEndereï¿½o: " + clientes.get(i).getEndereco());
+							System.out.println("\tEndereço: " + clientes.get(i).getEndereco());
 							System.out.println("\tSaldo: " + uTemp.getSaldo());
 							encontrado = true;
 							break;
@@ -88,12 +88,12 @@ public class ListadeMenu {
 					}
 					
 					if (!encontrado) {
-						System.out.println("Nï¿½o foi encontrado nenhum cliente com esse nome");
+						System.out.println("Não foi encontrado nenhum cliente com esse nome");
 					}
 					break;
 				}
 				case "4": {
-					System.out.println("===== ATUALIZAï¿½ï¿½O DE CLIENTE =====");
+					System.out.println("===== ATUALIZAÇÃO DE CLIENTE =====");
 					
 					for (int i = 0; i < clientes.size(); i++) {
 						
@@ -102,7 +102,7 @@ public class ListadeMenu {
 						System.out.println("[" + i + "} " + uTemp.getNome());
 					}
 					
-					System.out.print("Digite o valor de referï¿½ncia: ");
+					System.out.print("Digite o valor de referência: ");
 					int referencia = scanner.nextInt();
 					scanner.nextLine();
 					
@@ -115,7 +115,7 @@ public class ListadeMenu {
 					System.out.print("Digite a nova idade: ");
 					String novoIdade = scanner.nextLine();
 					
-					System.out.print("Digite a nova endereï¿½o: ");
+					System.out.print("Digite a nova endereço: ");
 					String novoEndereco = scanner.nextLine();
 
 					System.out.print("Digite a nova saldo: ");
@@ -138,7 +138,7 @@ public class ListadeMenu {
 						System.out.println("[" + i + "} " + uTemp.getNome());
 					}
 					
-					System.out.print("Digite o valor de referï¿½ncia: ");
+					System.out.print("Digite o valor de referência: ");
 					int referencia = scanner.nextInt();
 					scanner.nextLine();
 					
@@ -153,18 +153,18 @@ public class ListadeMenu {
 						Cliente uTemp = clientes.get(i);
 						
 						for(int registros=0; registros<3; ) {
-							gravarArquivo.printf("Informaï¿½ï¿½es de Clientes%n%n");
+							gravarArquivo.printf("Informações de Clientes%n%n");
 							gravarArquivo.printf("\tNome: " + uTemp.getNome());
 							gravarArquivo.printf("\tSobrenome: " + uTemp.getSobrenome());
 							gravarArquivo.printf("\tIdade: " + uTemp.getIdade());
-							gravarArquivo.printf("\tEndereï¿½o: " + uTemp.getEndereco());
+							gravarArquivo.printf("\tEndereço: " + uTemp.getEndereco());
 							gravarArquivo.printf("\tSaldo: " + uTemp.getSaldo());
 							break;
 						} 
 					}
 					arquivo.close();
 					System.out.println("Gravado na arquivo");
-					System.out.println("Local salvo ï¿½: C:\\arquivo.txt");
+					System.out.println("Local salvo é: C:\\arquivo.txt");
 					break;
 				}
 				case "7": {  
@@ -201,7 +201,7 @@ public class ListadeMenu {
 					break;
 				}
 				default:
-					System.out.println("Opï¿½ï¿½o Invï¿½lida!!!");
+					System.out.println("Opção Inválida!!!");
 			}
 			
 		}
